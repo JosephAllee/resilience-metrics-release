@@ -53,18 +53,6 @@ The analysis produces a JSON report with key resilience metrics. Visual summarie
 
 ![Resilience Analysis Summary (PNG)](examples/summary.png)
 
-## Stress test (optional)
-
-Generate a "hostile" CSV with noise, gaps (NaNs), and outliers, then run the CLI to verify robustness:
-
-```
-python examples/make_hostile_csv.py --out examples/hostile.csv --rows 2000
-docker run --rm -v "$PWD/examples":/data \
-  eliotsystem/resilience-metrics:latest \
-  analyze --csv /data/hostile.csv --out /data/analysis.json
-```
-
-## Output schema (quick reference)
 
 `analysis.json` (excerpt):
 
