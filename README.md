@@ -8,7 +8,7 @@ Run the CLI on the included synthetic example:
 
 ```
 docker run --rm -v "$PWD/examples":/data \
-  eliotsystem/resilience-metrics:latest \
+  [User-Name]/resilience-metrics:latest \
   analyze --csv /data/synth.csv --out /data/analysis.json
 ```
 
@@ -24,7 +24,7 @@ cd /path/to/resilience-metrics
 
 ```
 docker run --rm -v "$PWD/examples":/data \
-  eliotsystem/resilience-metrics:latest \
+  [User-Name]/resilience-metrics:latest \
   analyze --csv /data/synth.csv --out /data/analysis.json
 ```
 
