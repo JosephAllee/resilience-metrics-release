@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  files:
+    image: python:3.11-slim
+    working_dir: /data
+    command: python -m http.server 8000
+    volumes:
+      - ../examples:/data:ro
+    networks:
+      - grafnet
+
+  grafana:
+    image: grafana/grafana:9.5.0
+    environment:
+      - GF_INSTALL_PLUGINS=marcusolsson-json-datasource
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./provisioning:/etc/grafana/provisioning:ro
+      - ../examples/grafana:/var/lib/grafana/dashboards:ro
+    ports:
+      - '3000:3000'
+    depends_on:
+      - files
+    networks:
+      - grafnet
+
+networks:
+  grafnet:
+    driver: bridge
+
